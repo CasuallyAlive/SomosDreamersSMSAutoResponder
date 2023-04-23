@@ -1,6 +1,6 @@
-# TemplateRepo
+# SomosDreamersSMSAutoResponder
 
-A template repository for our organization.
+SMS auto responder via twilio Rest API and messaging service.
 
 ## Description
 
