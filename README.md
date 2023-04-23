@@ -40,12 +40,6 @@ Contributors names and contact info
 Jordy A. Larrea Rodriguez  
 [@CasuallyAlive](https://github.com/CasuallyAlive)
 
-Cody Argyle
-[@charming21](https://github.com/charming21)
-
-Nicole Sundberg
-[@Misael812](https://github.com/Misael812)
-
 ## Version History
 
 * 0.1
