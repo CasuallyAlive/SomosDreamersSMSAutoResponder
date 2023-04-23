@@ -1,3 +1,6 @@
+# env
+*.yaml
+
 # LaTex compiled Files and TexStudio Files
 *.aux 
 *.bit 
