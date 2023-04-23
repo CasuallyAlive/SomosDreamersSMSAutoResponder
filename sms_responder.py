@@ -5,7 +5,7 @@ import pandas as pd
 from twilio.rest import Client
 from twilio.twiml.messaging_response import MessagingResponse
 
-OPTIONS_PATH = "keywords_responses.txt"
+OPTIONS_PATH = "Resources/keywords_responses.txt"
 
 options_dict = {}
 # Load keywords and responses
