@@ -32,10 +32,10 @@ auto_response_app = Flask(__name__)
 def sms_auto_reply():
     # Get message from usr
     msg = request.values.get('Body', None)
-
+    print(msg)
     # Split message into individual unique strings with whitespace
     msg_words = {str(msg).lower().split()}
-
+    print(msg_words)
     # dynamic response
     resp = MessagingResponse()
     for word in msg_words:
