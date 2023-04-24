@@ -6,6 +6,8 @@ from twilio.rest import Client
 from twilio.twiml.messaging_response import MessagingResponse
 
 OPTIONS_PATH = "Resources/keywords_responses.txt"
+HOST = "34.134.250.0"
+PORT = 500
 
 options_dict = {}
 # Load keywords and responses
@@ -46,4 +48,4 @@ def sms_auto_reply():
 
 
 if __name__ == '__main__':
-    auto_response_app.run(debug=True)
+    auto_response_app.run(host=HOST, port=PORT)
