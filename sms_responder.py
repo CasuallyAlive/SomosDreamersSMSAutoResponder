@@ -17,7 +17,7 @@ with open(OPTIONS_PATH) as f:
 
     for line in val:
         t = line.split(',')
-        if t[0].lower() == "help":
+        if t[0].lower() == "options":
             options_dict[t[0].lower()] = t[1]
         else:
             options_dict[t[0].lower()] = t[2]
