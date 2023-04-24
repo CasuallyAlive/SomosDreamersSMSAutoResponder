@@ -7,7 +7,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 
 OPTIONS_PATH = "Resources/keywords_responses.txt"
 HOST = "0.0.0.0"
-PORT = 443
+PORT = 5000
 
 options_dict = {}
 # Load keywords and responses
