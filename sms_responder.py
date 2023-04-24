@@ -35,11 +35,12 @@ def sms_auto_reply():
     print(msg)
     # Split message into individual unique strings with whitespace
     msg_words = str(msg).lower().split()
-    print(msg_words)
     # dynamic response
     resp = MessagingResponse()
     for word in msg_words:
+        print(word)
         if word in options_dict.keys():
+            print(options_dict[word])
             resp.message(options_dict[word])
             return str(resp)
     
