@@ -44,7 +44,7 @@ def sms_auto_reply():
             resp.message(options_dict[word])
             return str(resp)
     
-    resp.message("Thank you for reaching Somos Dreamer's automated SMS responder. Text 'HELP' for a complete list of our keywords!")
+    resp.message("Thank you for reaching Somos Dreamer's automated SMS responder. Text 'OPTIONS' for a complete list of our keywords!")
     return str(resp)
 
 

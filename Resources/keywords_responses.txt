@@ -1,4 +1,4 @@
-HELP,Help selected!
+OPTIONS,OPTIONS selected!
 TREE,Somos Dreamer's linktree,https://linktr.ee/somosdreamers
 FUND,link to Somos Dreamer's fundraiser page,https://givebutter.com/d26H5I
 RSVP,link to Somos Dreamer's RSVP form for our Night of Borderless Dreams/Noche de Suenos sin Fronteras event,https://bit.ly/43eDJDq
