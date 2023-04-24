@@ -21,7 +21,7 @@ with open(OPTIONS_PATH) as f:
             options_dict[t[0].lower()] = t[1]
         else:
             options_dict[t[0].lower()] = t[2]
-            options_dict["help"] += f" Text '{t[0]}' for {t[1]}," if i > 0 else f" OR Text '{t[0]}' for {t[1]}."
+            options_dict["options"] += f" Text '{t[0]}' for {t[1]}," if i > 0 else f" OR Text '{t[0]}' for {t[1]}."
 
         i-=1
 
