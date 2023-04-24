@@ -34,7 +34,7 @@ def sms_auto_reply():
     msg = request.values.get('Body', None)
     print(msg)
     # Split message into individual unique strings with whitespace
-    msg_words = {str(msg).lower().split()}
+    msg_words = str(msg).lower().split()
     print(msg_words)
     # dynamic response
     resp = MessagingResponse()
