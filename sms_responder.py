@@ -38,7 +38,6 @@ def sms_auto_reply():
     # dynamic response
     resp = MessagingResponse()
     for word in msg_words:
-        print(word)
         if word in options_dict.keys():
             print(options_dict[word])
             resp.message(str(options_dict[word]))
