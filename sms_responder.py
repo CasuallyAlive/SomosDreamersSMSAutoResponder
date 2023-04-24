@@ -1,6 +1,6 @@
 # Download the helper library from https://www.twilio.com/docs/python/install
 import os
-from flask import Flask
+from flask import Flask, request
 import pandas as pd
 from twilio.rest import Client
 from twilio.twiml.messaging_response import MessagingResponse
